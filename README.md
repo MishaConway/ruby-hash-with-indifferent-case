@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ```ruby
     x = {:HELLO => 1, "World" => 2}.with_indifferent_case
-    puts "#{x['hello']} x[:world]"   # omg... it works
+    puts "#{x['hello']} #{x[:world]}"   # omg... it works
 
     y = HashWithIndifferentCase.new
     y[:Is_This_Stupid] = 'yes'
